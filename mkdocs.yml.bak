@@ -3,13 +3,10 @@ theme:
     name: 'readthedocs'
     custom_dir: 'omeka/'
     include_homepage_in_sidebar: false
-    favicon:https://omeka.org/favicon.ico
 site_dir: 'html'
 repo_url: 'https://github.com/omeka/classic-enduser'
 extra_css: 
     - css/extra.css
-extra:
-  homepage:https://omeka.org/
 markdown_extensions:
     - toc:
         permalink: 
