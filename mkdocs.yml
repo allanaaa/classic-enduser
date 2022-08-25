@@ -5,12 +5,15 @@ theme:
     include_homepage_in_sidebar: false
     favicon:https://omeka.org/favicon.ico
 site_dir: 'html'
+site_url: 'https://omeka.org/classic/'
 repo_url: 'https://github.com/omeka/classic-enduser'
 extra_css: 
     - css/extra.css
 extra:
   homepage:https://omeka.org/
 markdown_extensions:
+    - admonition
+    - attr_list
     - toc:
         permalink: 
 nav:
@@ -23,9 +26,9 @@ nav:
         - GettingStarted/Accessibility_Statement.md
         - GettingStarted/Screencasts.md
         - GettingStarted/Searching.md
-    - Installing:
+    - Installation:
         - Installation/System_Requirements.md
-        - Installation/Installation.md
+        - Installation/Installing.md
         - Installation/Upgrading.md
         - Installation/Configuring_Language.md
         - Installation/Setting_Directory_Permissions.md
@@ -44,7 +47,7 @@ nav:
         - Admin/Appearance/Navigation.md
         - Admin/Appearance/Appearance_Settings.md
         - Admin/Users.md
-        - Admin/Settings/General_Settings.md
+        - Admin/Settings/index.md
         - Admin/Settings/Security_Settings.md
         - Admin/Settings/Search_Settings.md
         - Admin/Settings/Element_Sets.md
@@ -78,7 +81,6 @@ nav:
         - Plugins/Omeka_API_Import.md
         - Plugins/PBCore.md
         - Plugins/PdfText.md
-        - Plugins/Plugin_Shortcodes.md
         - Plugins/Posters.md
         - Plugins/RecordRelations.md
         - Plugins/RedactElements.md
@@ -94,10 +96,9 @@ nav:
         - Plugins/TextAnnotation.md
         - Plugins/UserProfiles.md
         - Plugins/VRACore.md
-        - Plugins/ZoomIt.md
         - Plugins/ZoteroImport.md
     - Troubleshooting: 
-        - Troubleshooting/Troubleshooting_Omeka.md
+        - Troubleshooting/index.md
         - Troubleshooting/Retrieving_Error_Messages.md
         - Troubleshooting/Report-a-bug.md
     - Technical:

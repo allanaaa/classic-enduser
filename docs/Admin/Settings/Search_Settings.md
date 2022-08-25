@@ -1,6 +1,6 @@
 # Search Settings
 
-This is information for managing search settings on Omeka Classic. See [the Searching page](../../GettingStarted/Searching) for information on conducting searches.
+This is information for managing search settings on Omeka Classic. See [the Searching page](../../GettingStarted/Searching.md) for information on conducting searches.
 
 The Search Settings options allow you to set which types of records are automatically searched when a user enters terms into the basic search bar on both the admin and public sides. You can also re-index your Omeka database to ensure that all selected content is searchable.
 
@@ -33,7 +33,7 @@ Please note that the "Exhibit" record type includes exhibit descriptive informat
 
 Be sure to save changes if you check or uncheck boxes. 
 
-Once records types are selected, searchers use the ellipses button to choose from the options you have provided, in both admin and public site-wide searches.
+Once records types are selected, searchers use the ellipsis button to choose from the options you have provided, in both admin and public site-wide searches.
 
 ![Expanded search options](../../doc_files/searchExpanded.png)
 
